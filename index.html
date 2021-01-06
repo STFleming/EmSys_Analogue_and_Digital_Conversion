@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/westworld_opening.mp4"></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/3d_printer.mp4"></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/zack_data_glove_cut.mp4"></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/tesla_self_driving.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/neuralink.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/radiation_therapy_machine.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/robot_hand_catching.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/cern.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/vintage_ibm.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/satellite_detach.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/car_manufacturer.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/airplane_vintage.mp4" ></section>
+                 <section data-autoplay data-background-video-loop data-background-video="media/audio_removed/vintage_0.mp4" ></section>
+                 
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+                
+                autoPlayMedia: true,
+
+                viewDistance: 3,
+
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
