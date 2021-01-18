@@ -31,6 +31,12 @@ they usually have one or more of the following properties:
 * Application-specific: they generally do just a single specific task.
 
 This course takes a practical approach to teaching embedded systems. 
+
+There are two main components to this module: 
+* The lectures -- where I will tinker with and explore hardware from my ~~bedroom~~ lab, and show you over zoom.
+* The labs -- where you will tinker with and explore hardware and embedded software from your home.
+
+### The Labs
 We will use and work with an embedded device frequently used by the maker community, the ESP32. 
 This marvellous little device has built-in WiFi, Bluetooth BLE, seriously low low-power modes, 
 and is easily programmable from the Arduino IDE. 
@@ -52,9 +58,7 @@ Each of you will work in paris to remotely connect to hardware located in our em
 From the safe comfort of your own home you will be able to program the device, inspect it's output,
 and communicate with the wider network.
 
-There are two main components to this module: 
-* The lectures -- where I will tinker with and explore hardware from my ~~bedroom~~ lab, and show you over zoom.
-* The labs -- where you will tinker with and explore hardware and embedded software from your home.
+### The lectures
 
 In the lectures I will use the following hardware:
 
@@ -65,9 +69,9 @@ In the lectures I will use the following hardware:
 | ![](imgs/la_small.jpg)             | The same USB logic analyser that you'll be using in the labs             |
 | ![](imgs/tp_small.jpg)             | The same TinyPico ESP32 development board that you'll be using in the labs             |
 | ![](imgs/pynq_small.jpg)           | A PYNQ FPGA development board from Xilinx  |
-| ![](imgs/circuit.js)               | Circuit.js a web based circuit simulator   |
+| ![](imgs/circuitjs_small.gif)            | Circuit.js a web based circuit simulator   |
 | ![](imgs/verilator_small.jpg)      | Verilator, a cycle-accurate hardware simulator |
-| ![](imgs/gtkwave_small.jpg)        | GTKWave, a digital hardware waveform viewer |
+| ![](imgs/gtkwave_small.gif)        | GTKWave, a digital hardware waveform viewer |
 
 During the lectures, and by completing the labs, you will learn:
 
@@ -78,3 +82,8 @@ During the lectures, and by completing the labs, you will learn:
 * How the choice of mathematical data types can influence both performance and power
 * A brief introduction into custom hardware development and the use of FPGAs in embedded systems
 * How to develop systems that can operate fault-free in extreme environments (such as space)
+
+## Embedded systems are everywhere
+During lecture 1 I will discuss how embedded systems are everywhere. 
+We will then void some warranties and attempt to hack my childs smart baby monitor.
+
