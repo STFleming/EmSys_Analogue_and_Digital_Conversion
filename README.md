@@ -66,3 +66,8 @@ During the lectures, and by completing the labs, you will learn:
 During lecture 1 I will discuss how embedded systems are everywhere. 
 We will then void some warranties and attempt to hack my childs smart baby monitor.
 
+## Notes from the lecture
+![](imgs/CubeSat.png)
+![](imgs/OurLab.png)
+![](imgs/Outline.png)
+![](imgs/UART.png)
