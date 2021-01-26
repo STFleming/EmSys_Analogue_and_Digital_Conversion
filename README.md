@@ -12,7 +12,7 @@ they usually have one or more of the following properties:
 This course takes a practical approach to teaching embedded systems. 
 
 There are two main components to this module: 
-* The lectures -- where I will tinker with and explore hardware from my ~~bedroom~~ lab, and show you over zoom.
+* The lectures -- where I will tinker with and explore hardware from my desk, and show you over zoom.
 * The labs -- where you will tinker with and explore hardware and embedded software from your home.
 
 ### The Labs
